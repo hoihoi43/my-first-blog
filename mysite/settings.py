@@ -20,13 +20,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-7+64ncf-eafb*)82f!v(89&=!sx)y#&jez$=o&=emgb1p7uhcu'
+SECRET_KEY = 'django-insecure-gz&v-%o7q-_r9@kprn5b26q6=b@%0%x7^#-$5jkl(y(tjs7v))'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# 127.0.0.1 내 컴퓨터 주소
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+
 
 # Application definition
 
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'ko-KR'
+LANGUAGE_CODE = 'ko-kr'
 
 TIME_ZONE = 'Asia/Seoul'
 
